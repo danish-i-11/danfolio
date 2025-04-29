@@ -52,7 +52,7 @@ export default function About() {
             <div className="absolute inset-0 bg-gray-900/80 backdrop-blur-sm rounded-2xl border border-gray-800/50"></div>
             <div className="relative h-full w-full overflow-hidden rounded-2xl flex items-center justify-center">
               <Image
-                src="/images/dan.jpg?height=400&width=400"
+                src="/images/dan.png?height=400&width=400"
                 alt="Danish Iqbal"
                 width={400}
                 height={400}
