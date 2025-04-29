@@ -1,14 +1,13 @@
 "use client"
 
 import { useState } from "react"
-import { ExternalLink } from "lucide-react"
+import { ExternalLink, Award } from "lucide-react"
 import { cn } from "@/lib/utils"
 import Image from "next/image"
 
 interface ProjectCardProps {
   title: string
   description: string
-  date: string
   techStack: string[]
   demoUrl?: string
   imageSrc?: string
@@ -17,7 +16,6 @@ interface ProjectCardProps {
 export default function ProjectCard({
   title,
   description,
-  date,
   techStack,
   demoUrl,
   imageSrc,
@@ -45,7 +43,7 @@ export default function ProjectCard({
         <div className="mb-4">
           <div className="flex justify-between items-start mb-2">
             <h3 className="text-xl font-semibold text-gray-200 group-hover:text-teal-400 transition-colors">{title}</h3>
-            <span className="text-sm text-gray-500">{date}</span>
+            <span className="text-sm text-gray-500"><Award size={14} className="text-teal-400" /></span>
           </div>
           <p className="text-gray-400 mb-4">{description}</p>
         </div>

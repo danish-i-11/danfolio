@@ -17,38 +17,33 @@ export default function Projects() {
       title: "Black Panther",
       description:
         "Contributed to the Frontend, Backend, UI/UX Design and product flow for Black Panther, a Web3 platform offering African-focused digital financial tools including stablecoins, charity-based tokens, Web3 apps, and secure wallets.",
-      date: "2023",
       techStack: ["React.js", "Node.js", "Web3", "Figma", "UI/UX Design"],
       demoUrl: "https://www.blackpanthertkn.info/",
-      imageSrc: "/placeholder.svg?height=225&width=400",
+      imageSrc: "/images/blkPnthr.png?height=225&width=400",
     },
     {
       title: "Daily Doze of DSA",
       description:
       "Made a one-month freelance project as a UI/UX Designer, delivering an intuitive and engaging platform for Data Structures and Algorithms learners using Figma for the full product design.",
-      date: "2023",
       techStack: ["Figma", "UI/UX Design", "Product Design"],
-      demoUrl: "https://www.blackpanthertkn.info/",
-      // demoUrl: null,
-      imageSrc: "/placeholder.svg?height=225&width=400",
+      demoUrl: "https://www.figma.com/design/cm6iCG8D6z1BBYCw38kLmU/DDD-C?node-id=0-1&t=iYMuWKTOI90LEVGR-1",
+      imageSrc: "/images/ddd.png?height=225&width=400",
     },
     {
       title: "Football Loverz App",
       description:
         "A React JSX-based personal project showcasing my passion for football, along with dynamic components and player insights.",
-      date: "2023",
       techStack: ["React", "JSX", "CSS", "JavaScript"],
       demoUrl: "https://footballloverz.netlify.app/",
-      imageSrc: "/placeholder.svg?height=225&width=400",
+      imageSrc: "/images/footballLoverz.png?height=225&width=400",
     },
     {
       title: "Danfolio",
       description:
         "A personal web portfolio created using React, documenting my early learning phase with project showcases, simple clones, and design practices.",
-      date: "2022",
       techStack: ["React", "CSS", "JavaScript", "Responsive Design"],
       demoUrl: "https://danfolio1.netlify.app/",
-      imageSrc: "/placeholder.svg?height=225&width=400",
+      imageSrc: "/images/danfolio.png?height=225&width=400",
     },
   ]
 
@@ -71,7 +66,6 @@ export default function Projects() {
             <ProjectCard
               title={project.title}
               description={project.description}
-              date={project.date}
               techStack={project.techStack}
               demoUrl={project.demoUrl}
               imageSrc={project.imageSrc}

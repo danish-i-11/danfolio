@@ -52,14 +52,14 @@ export default function About() {
             <div className="absolute inset-0 bg-gray-900/80 backdrop-blur-sm rounded-2xl border border-gray-800/50"></div>
             <div className="relative h-full w-full overflow-hidden rounded-2xl flex items-center justify-center">
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="/images/dan.jpg?height=400&width=400"
                 alt="Danish Iqbal"
                 width={400}
                 height={400}
                 className="object-cover h-full w-full"
                 priority
               />
-              <div className="absolute inset-0 flex items-center justify-center text-6xl">DI</div>
+              {/* <div className="absolute inset-0 flex items-center justify-center text-6xl">DI</div> */}
             </div>
           </div>
         </div>

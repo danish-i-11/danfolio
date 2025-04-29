@@ -16,7 +16,7 @@ export default function Experience() {
     {
       title: "Full Stack Developer",
       company: "Peace Keepers",
-      location: "Delaware, USA (Remote)",
+      location: "Delaware, USA",
       period: "Jan 2024 — Present",
       website: "https://peace-keepers.io/",
       description: [
@@ -33,7 +33,7 @@ export default function Experience() {
     {
       title: "Full Stack Developer",
       company: "Enkaare",
-      location: "Baltimore, USA (Remote)",
+      location: "Baltimore, USA",
       period: "April 2023 — Jan 2024",
       website: "https://www.enkaare.com/",
       description: [
@@ -49,7 +49,7 @@ export default function Experience() {
     {
       title: "Ethical Hacker (Internship)",
       company: "RBT Security",
-      location: "Toronto, Ontario, Canada (Remote)",
+      location: "Toronto, Ontario, Canada",
       period: "Internship",
       website: "https://www.rbtsec.com/",
       description: [
