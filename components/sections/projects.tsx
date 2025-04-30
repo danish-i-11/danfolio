@@ -19,7 +19,7 @@ export default function Projects() {
         "Contributed to the Frontend, Backend, UI/UX Design and product flow for Black Panther, a Web3 platform offering African-focused digital financial tools including stablecoins, charity-based tokens, Web3 apps, and secure wallets.",
       techStack: ["React.js", "Node.js", "Web3", "Figma", "UI/UX Design"],
       demoUrl: "https://www.blackpanthertkn.info/",
-      imageSrc: "/images/blkPnthr.png?height=225&width=400",
+      imageSrc: "https://res.cloudinary.com/dccmpc9ue/image/upload/v1745934941/blkPnthr_ln6nff.png",
     },
     {
       title: "Daily Doze of DSA",
@@ -27,7 +27,7 @@ export default function Projects() {
       "Made a one-month freelance project as a UI/UX Designer, delivering an intuitive and engaging platform for Data Structures and Algorithms learners using Figma for the full product design.",
       techStack: ["Figma", "UI/UX Design", "Product Design"],
       demoUrl: "https://www.figma.com/design/cm6iCG8D6z1BBYCw38kLmU/DDD-C?node-id=0-1&t=iYMuWKTOI90LEVGR-1",
-      imageSrc: "/images/ddd.png?height=225&width=400",
+      imageSrc: "https://res.cloudinary.com/dccmpc9ue/image/upload/v1745934940/ddd_rp34cz.png",
     },
     {
       title: "Football Loverz App",
@@ -35,7 +35,7 @@ export default function Projects() {
         "A React JSX-based personal project showcasing my passion for football, along with dynamic components and player insights.",
       techStack: ["React", "JSX", "CSS", "JavaScript"],
       demoUrl: "https://footballloverz.netlify.app/",
-      imageSrc: "/images/footballLoverz.png?height=225&width=400",
+      imageSrc: "https://res.cloudinary.com/dccmpc9ue/image/upload/v1745934941/footballLoverz_n8ul5f.png",
     },
     {
       title: "Danfolio",
@@ -43,7 +43,7 @@ export default function Projects() {
         "A personal web portfolio created using React, documenting my early learning phase with project showcases, simple clones, and design practices.",
       techStack: ["React", "CSS", "JavaScript", "Responsive Design"],
       demoUrl: "https://danfolio1.netlify.app/",
-      imageSrc: "/images/danfolio.png?height=225&width=400",
+      imageSrc: "https://res.cloudinary.com/dccmpc9ue/image/upload/v1745934942/danfolio_vfnpcz.png",
     },
   ]
 
